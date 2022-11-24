@@ -41,12 +41,12 @@ public class BaseClass {
 		Reporter.log("--- DataBase connected successfully ---", true);
 	}
 	
-//	@Parameters("browser")
+	@Parameters("browser")
 //	@BeforeTest
 	@BeforeClass(groups = {"smokeSuite", "regressionSuite"})
-	public void bcConfig(/*String BROWSER*/) throws IOException
+	public void bcConfig(String BROWSER) throws IOException
 	{
-		String BROWSER = pLib.readDataFromPropertyFile("browser");
+//		String BROWSER = pLib.readDataFromPropertyFile("browser");
 		String URL = pLib.readDataFromPropertyFile("url");
 		
 		if(BROWSER.equalsIgnoreCase("chrome"))
