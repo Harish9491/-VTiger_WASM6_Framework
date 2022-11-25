@@ -50,7 +50,7 @@ public class CreateContactTest extends BaseClass {
 	{
 		Thread.sleep(10000);
 		Reporter.log("Demo test created",true);
-//		Assert.fail();
+		Assert.fail();
 	}
 	
 	@Test

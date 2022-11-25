@@ -23,6 +23,7 @@ public class CreateOrganizationsTest extends BaseClass {
 		HomePage hp = new HomePage(driver);
 		hp.clickOnOrganization();
 		Reporter.log("clicked on organization link", true);
+		Assert.fail();
 
 		OrganizationsPage op = new OrganizationsPage(driver);
 		op.clickOnCreateOrganizationImg();
