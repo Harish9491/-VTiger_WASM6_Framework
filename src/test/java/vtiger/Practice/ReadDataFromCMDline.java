@@ -9,9 +9,11 @@ public class ReadDataFromCMDline {
 	{
 		String BROWSER = System.getProperty("browser");
 		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
 		
-		System.out.println(BROWSER);
-		System.out.println(USERNAME);
+		System.out.println("Browser given is --> "+BROWSER);
+		System.out.println("Username given is --> "+USERNAME);
+		System.out.println("Password given is --> "+PASSWORD);
 	}
 
 }
