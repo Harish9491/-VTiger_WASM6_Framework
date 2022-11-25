@@ -29,7 +29,7 @@ public class CreateContactWithOrganizationTest extends BaseClass {
 		HomePage hp = new HomePage(driver);
 		hp.clickOnOrganization();
 		Reporter.log("clicked on organization link", true);
-		Assert.fail();
+//		Assert.fail();
 
 		// Step 6: Navigate to create Organizations look up image
 		OrganizationsPage op = new OrganizationsPage(driver);
