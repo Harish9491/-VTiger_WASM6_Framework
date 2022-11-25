@@ -15,7 +15,7 @@ public class ReadDataFromCMDline {
 		System.out.println("Username given is --> "+USERNAME);
 		System.out.println("Password given is --> "+PASSWORD);
 		System.out.println("Password given is --> "+PASSWORD);
-		System.out.println("Password given is --> "+PASSWORD);
+		
 	}
 
 }
