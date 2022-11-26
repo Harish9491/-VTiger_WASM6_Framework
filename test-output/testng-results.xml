@@ -1,131 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[--- DataBase connected successfully ---]]>
-    </line>
-    <line>
-      <![CDATA[Execution of suite started]]>
-    </line>
-    <line>
-      <![CDATA[--- Browser launched successfully: chrome ---]]>
-    </line>
-    <line>
-      <![CDATA[--- login is successful ---]]>
-    </line>
-    <line>
-      <![CDATA[clicked on vendor link]]>
-    </line>
-    <line>
-      <![CDATA[clicked on vendor lookup image]]>
-    </line>
-    <line>
-      <![CDATA[Harsha Complex185 vendor created]]>
-    </line>
-    <line>
-      <![CDATA[[ VEN19 ] Harsha Complex185 - Vendor Information]]>
-    </line>
-    <line>
-      <![CDATA[clicked on oproduct link]]>
-    </line>
-    <line>
-      <![CDATA[clicked on products lookup image]]>
-    </line>
-    <line>
-      <![CDATA[Water Heater352 product created with Harsha Complex185 vendor]]>
-    </line>
-    <line>
-      <![CDATA[[ PRO16 ] Water Heater352 - Product Information]]>
-    </line>
-    <line>
-      <![CDATA[--- logout successful ---]]>
-    </line>
-    <line>
-      <![CDATA[--- browser closed successfully ---]]>
-    </line>
-    <line>
-      <![CDATA[Execution of suite finished]]>
-    </line>
-    <line>
-      <![CDATA[DataBase closed successfully]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-11-18T22:39:48 IST" name="Failed suite [Default suite]" finished-at="2022-11-18T22:41:10 IST" duration-ms="81514">
+  <suite started-at="2022-11-26T13:15:04 IST" name="Default suite" finished-at="2022-11-26T13:15:05 IST" duration-ms="499">
     <groups>
     </groups>
-    <test started-at="2022-11-18T22:39:48 IST" name="Default test(failed)" finished-at="2022-11-18T22:41:10 IST" duration-ms="81514">
-      <class name="vtiger.ProductsTests.CreateProductWithVendorTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:39:48 IST" name="bsConfig" finished-at="2022-11-18T22:39:48 IST" duration-ms="43" status="PASS">
+    <test started-at="2022-11-26T13:15:04 IST" name="Default test" finished-at="2022-11-26T13:15:05 IST" duration-ms="499">
+      <class name="dataBaseConnection.SampleExecuteQuery">
+        <test-method signature="sampleExecuteQuery()[pri:0, instance:dataBaseConnection.SampleExecuteQuery@3b6ddd1d]" started-at="2022-11-26T13:15:05 IST" name="sampleExecuteQuery" finished-at="2022-11-26T13:15:05 IST" duration-ms="431" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[--- DataBase connected successfully ---]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:39:49 IST" name="bcConfig" finished-at="2022-11-18T22:40:01 IST" duration-ms="12138" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[--- Browser launched successfully: chrome ---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:40:01 IST" name="bmConfig" finished-at="2022-11-18T22:40:15 IST" duration-ms="13849" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[--- login is successful ---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="createProductWithVendorTest()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:40:15 IST" name="createProductWithVendorTest" finished-at="2022-11-18T22:41:06 IST" duration-ms="50781" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[clicked on vendor link]]>
-            </line>
-            <line>
-              <![CDATA[clicked on vendor lookup image]]>
-            </line>
-            <line>
-              <![CDATA[Harsha Complex185 vendor created]]>
-            </line>
-            <line>
-              <![CDATA[[ VEN19 ] Harsha Complex185 - Vendor Information]]>
-            </line>
-            <line>
-              <![CDATA[clicked on oproduct link]]>
-            </line>
-            <line>
-              <![CDATA[clicked on products lookup image]]>
-            </line>
-            <line>
-              <![CDATA[Water Heater352 product created with Harsha Complex185 vendor]]>
-            </line>
-            <line>
-              <![CDATA[[ PRO16 ] Water Heater352 - Product Information]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createProductWithVendorTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:41:06 IST" name="amConfig" finished-at="2022-11-18T22:41:09 IST" duration-ms="3484" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[--- logout successful ---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:41:09 IST" name="acConfig" finished-at="2022-11-18T22:41:10 IST" duration-ms="650" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[--- browser closed successfully ---]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ProductsTests.CreateProductWithVendorTest@d9345cd]" started-at="2022-11-18T22:41:11 IST" name="asConfig" finished-at="2022-11-18T22:41:11 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[DataBase closed successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- asConfig -->
-      </class> <!-- vtiger.ProductsTests.CreateProductWithVendorTest -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+        </test-method> <!-- sampleExecuteQuery -->
+      </class> <!-- dataBaseConnection.SampleExecuteQuery -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
